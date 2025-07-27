@@ -1,0 +1,19 @@
+# Basic Firewall Rules Using UFW
+
+# Allow SSH (Port 22)
+sudo ufw allow 22
+
+# Allow HTTP (Port 80)
+sudo ufw allow 80
+
+# Allow HTTPS (Port 443)
+sudo ufw allow 443
+
+# Deny Telnet (Port 23)
+sudo ufw deny 23
+
+# Enable UFW
+sudo ufw enable
+
+# Show UFW Status
+sudo ufw status verbose
